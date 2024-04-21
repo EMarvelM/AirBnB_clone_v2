@@ -1,4 +1,4 @@
-#!/home/marvel/wurd/pythonLearning/Flask/web_flask/bin/python3
+#!/usr/bin/env python3
 """ starts a flask web application """
 from flask import Flask
 
