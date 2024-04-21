@@ -26,6 +26,3 @@ This is the fourth part of the AirBnB clone project. In this part, we will creat
 - MySQL
 - SQLAlchemy 1.3.17 or higher
 
-## Installation
-
-1. Clone the repository:
