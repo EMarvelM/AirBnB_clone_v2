@@ -7,6 +7,12 @@ app = Flask(__name__)
 
 @app.route("/", strict_slashes=False)
 def hello():
+    """
+    Route handler for the root URL ("/").
+
+    Returns:
+        str: A greeting message "Hello HBNB!".
+    """
     return "Hello HBNB!"
 
 
