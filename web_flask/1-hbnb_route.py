@@ -6,7 +6,7 @@ from flask import Flask
 app = Flask(__name__)
 
 @app.route("/", strict_slashes=False)
-def hello_hbnb():
+def hello():
     """
     Route handler for the root URL ("/").
 
@@ -27,5 +27,5 @@ def hello_hbnb():
     return "HBNB"
 
 
-if __name__ == "__name__":
+if __name__ == "__main__":
     app.run()
