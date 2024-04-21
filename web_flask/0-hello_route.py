@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 
 @app.route("/", strict_slashes=False)
-def hello():
+def hello_world():
     """
     Route handler for the root URL ("/").
 
