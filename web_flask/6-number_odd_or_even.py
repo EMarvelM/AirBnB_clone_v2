@@ -89,7 +89,13 @@ def n_template(n):
 @app.route("/number_odd_or_even/<int:n>", strict_slashes=False)
 def odd_or_even(n):
     """
-    //TODO
+    Route handler for the number URL ("/number_template/<n>").
+
+    Parameters:
+        n (int): The number provided provided in the URL.
+
+    Returns:
+        str: The html page to render".
     """
     if n % 2:
         oe = "odd"
