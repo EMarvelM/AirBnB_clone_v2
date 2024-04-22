@@ -74,6 +74,15 @@ def n_number(n):
 
 @app.route("/number_template/<int:n>", strict_slashes=False)
 def n_template(n):
+    """
+    Route handler for the number URL ("/number_template/<n>").
+
+    Parameters:
+        n (int): The number provided provided in the URL.
+
+    Returns:
+        str: The html page to render".
+    """
     return render_template('5-number.html', n=n)
 
 
