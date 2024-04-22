@@ -60,7 +60,17 @@ def python_text(text="is cool"):
 
 @app.route("/number/<int:n>", strict_slashes=False)
 def n_number(n):
+    """
+    Route handler for the number URL ("/python/<n>").
+
+    Parameters:
+        n (int): The number provided provided in the URL.
+
+    Returns:
+        str: A string n is a number ".
+    """
     return "n is a number"
+
 
 if __name__ == "__main__":
     app.run()
